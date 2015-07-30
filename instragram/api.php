@@ -22,11 +22,11 @@ else if($_GET['action'] == 'feed'){
 	echo json_encode($data);
 }
 else if($_GET['action'] == 'followers'){
-	$data = $instragram->getUserFollower(20);
+	$data = $instragram->getUserFollower('self', 20);
 	echo json_encode($data);
 }
 else if($_GET['action'] == 'recent_media'){
-	$data = $instragram->getUserMedia(20);
+	$data = $instragram->getUserMedia('self', 20);
 	echo json_encode($data);
 }
 else if($_GET['action'] == 'search'){
