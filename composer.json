@@ -1,6 +1,7 @@
 {
     "require": {
         "monolog/monolog": "1.0.*",
-        "abraham/twitteroauth": "^0.5.3"
+        "abraham/twitteroauth": "^0.5.3",
+        "cosenary/instagram": "^2.3"
     }
 }
